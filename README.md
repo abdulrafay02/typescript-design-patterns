@@ -1,5 +1,5 @@
 # typescript-design-patterns
-Repo for learning ts design patterns.
+Repo for learning TypeScript design patterns from this [course](https://www.udemy.com/typescript-design-patterns/).
 
 ## Decorator pattern
 ### [**See the code on Stackblitz**](https://stackblitz.com/edit/typescript-design-pattern-decorator?file=index.ts)
@@ -16,3 +16,7 @@ The Facade pattern is one of the structural software design patterns. This patte
 ## Adapter pattern
 ### [**See the code on Stackblitz**](https://stackblitz.com/edit/typescript-design-pattern-adapter?file=index.ts)
 The adapter pattern is one of the structural software design patterns. The main purpose of this pattern is to allow different interfaces (classes) to work together and it achieves this without having to modify the original class. This pattern works with 3 components: a client, an adapter and an adaptee. The client doesn't care about the implementation of the interface, it only wants to access a certain method for example. The adapter class makes sure that this can happen as it provides an interface to the adaptee class - which is the incompatilble class with the client.
+
+## State pattern
+### [**See the code on Stackblitz**](https://stackblitz.com/edit/typescript-design-pattern-state?file=index.ts)
+State pattern allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
