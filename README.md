@@ -12,3 +12,7 @@ Observer pattern is a way of allowing an object to pay atention into the state o
 ## Facade pattern
 ### [**See the code on Stackblitz**](https://stackblitz.com/edit/typescript-design-pattern-facade?file=index.ts)
 The Facade pattern is one of the structural software design patterns. This pattern hides the complexity of subsystems away from the implementor (client) and it provides an easy-to-use interface to the client.
+
+## Adapter pattern
+### [**See the code on Stackblitz**](https://stackblitz.com/edit/typescript-design-pattern-adapter?file=index.ts)
+The adapter pattern is one of the structural software design patterns. The main purpose of this pattern is to allow different interfaces (classes) to work together and it achieves this without having to modify the original class. This pattern works with 3 components: a client, an adapter and an adaptee. The client doesn't care about the implementation of the interface, it only wants to access a certain method for example. The adapter class makes sure that this can happen as it provides an interface to the adaptee class - which is the incompatilble class with the client.
